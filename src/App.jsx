@@ -1,6 +1,4 @@
 import React from "react";
-import axios from "axios";
-import cheerio from "cheerio";
 
 class App extends React.Component {
   constructor(props) {
@@ -296,7 +294,7 @@ class ImageArea extends React.Component {
           {
             <img
               src={
-                "/src/img/" +
+                "/img/" +
                 this.state.folderName +
                 "/" +
                 this.state.imageSelected +
